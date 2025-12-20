@@ -1,13 +1,13 @@
 import HeroSection from "./HeroSection";
-import Team from "./Team";
 import Footer from "../Footer"
 import Navbar from "../Navbar"
-export default function AboutPage(){
+import Brokerage from "./Brokerage";
+export default function PricingPage(){
     return (
         <>
             <Navbar/>
             <HeroSection/>
-            <Team/>
+            <Brokerage/>
             <Footer/>
         </>
     )

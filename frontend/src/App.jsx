@@ -1,10 +1,10 @@
-
+import HomePage from "./landing_page/home/HomePage"
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <h1></h1>
+    <HomePage/>
   )
 }
 
