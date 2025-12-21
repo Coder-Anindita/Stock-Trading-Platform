@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav
@@ -5,12 +6,13 @@ export default function Navbar() {
       style={{ backgroundColor: "white" }}
     >
       <div className="container">
-        <img
+        <Link className="nav-link" to="/"><img
           src="media/images/logo.svg"
           className="img-fluid"
           style={{ width: "130px" }}
           alt="logo"
-        />
+        /></Link>
+        
 
         <button
           className="navbar-toggler"
@@ -27,19 +29,19 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item ms-3">
-              <a className="nav-link" href="#">Signup</a>
+              <Link className="nav-link" to="/signup">Signup</Link>
             </li>
             <li className="nav-item ms-3">
-              <a className="nav-link" href="#">About</a>
+              <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="nav-item ms-3">
-              <a className="nav-link" href="#">Products</a>
+              <Link className="nav-link" to="/products">Products</Link>
             </li>
             <li className="nav-item ms-3">
-              <a className="nav-link" href="#">Pricing</a>
+              <Link className="nav-link" to="/pricing">Pricing</Link>
             </li>
             <li className="nav-item ms-3">
-              <a className="nav-link" href="#">Support</a>
+              <Link className="nav-link" to="/support">Support</Link>
             </li>
           </ul>
         </div>

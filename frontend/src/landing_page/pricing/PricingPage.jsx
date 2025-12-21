@@ -5,10 +5,10 @@ import Brokerage from "./Brokerage";
 export default function PricingPage(){
     return (
         <>
-            <Navbar/>
+            
             <HeroSection/>
             <Brokerage/>
-            <Footer/>
+            
         </>
     )
 }

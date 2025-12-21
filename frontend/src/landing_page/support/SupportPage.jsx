@@ -5,10 +5,10 @@ import Footer from "../Footer"
 export default function SupportPage(){
     return (
         <>
-            <Navbar/>
+            
             <HeroSection/>
             <CreateTicket/>
-            <Footer/>
+            
         </>
     )
 }

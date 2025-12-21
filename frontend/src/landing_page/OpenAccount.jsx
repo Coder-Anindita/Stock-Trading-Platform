@@ -11,7 +11,7 @@ export default function OpenAccount(){
                     <p className="fs-5">
                         Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades.
                     </p>
-                    <button className="p-2 px-4 bg-primary text-white border border-0 rounded fs-5" >
+                    <button className="p-2 px-4 bg-primary text-white border border-0 rounded fs-5 "  >
                         Sign up for free
                     </button>
                 </div>

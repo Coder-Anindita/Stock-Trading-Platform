@@ -10,14 +10,14 @@ import Stats from "./Stats";
 export default function HomePage(){
     return(
         <>
-            <Navbar/>
+            
             <HeroSection/>
             <Awards/>
             <Stats/>
             <Pricing/>
             <Education/>
             <OpenAccount/>
-            <Footer/>
+            
         </>
     )
 }
