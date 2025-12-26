@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useContext } from "react";
 
 import BuyActionWindow from "./BuyActionWindow";
 
@@ -14,6 +14,8 @@ export const GeneralContextProvider = (props) => {
   const handleOpenBuyWindow = (uid) => {
     setIsBuyWindowOpen(true);
     setSelectedStockUID(uid);
+    
+
   };
 
   const handleCloseBuyWindow = () => {
